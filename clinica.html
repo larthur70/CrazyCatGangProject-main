@@ -1,0 +1,126 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" href="favcon_io/favicon.ico" type="Logo-CCG">
+        <title>Possuo uma clínica</title>
+    </head>
+
+    <body>
+        <div class="title-index">
+            <img src="imagens/images.png" alt="logo">
+            <h1><a href="index.html" class="title">Crazy Cat Gang</a></h1>
+        </div>
+        
+
+
+
+        <div class="container-clinica">
+            <form id="form-login-clinica">
+                <div class="login-clinica">
+                    <div class="txtlogin-clinica">
+                        <h1>Faça seu login.</h1> <br><br><br>
+                    </div>
+                    <div class="">
+                        <div class="info-clinica">
+                            <label for="Nome" class="txtLabell-login"><strong>Nome da Clínica:</strong></label>
+                            <input type="text" class="txtbox-login">
+                        </div>
+                        <div class="info-clinica">
+                            <label for="CNPJ"><strong>CNPJ:</strong></label> <br>
+                            <input type="number" class="txtbox-login">
+                        </div>
+                        <div class="info-clinica">
+                            <label for="Email" class="txtLabell-login"><strong>Email:</strong></label>
+                            <input type="text" class="txtbox-login">
+                        </div>
+                        <div class="info-clinica">
+                            <label for="Senha" class="txtLabell-login"><strong>Senha:</strong></label>
+                            <input type="password" class="txtbox-login">
+                        </div>
+                    </div>
+                    <div><button class="button-entrar-clinica" onclick="entrarclinica()"><strong>Entrar</strong></button></div>
+                </div>
+            </form>
+
+
+
+
+
+            <form id="form-cadastro-clinica">
+                <div class="cadastro-clinica">
+                    <h1 class="txtcad-clinica">Cadastre sua clínica .</h1>
+                    <div >
+                        <form>
+                            <label for="bairro" class="txtLabell">Bairros:</label>
+                            <select id="bairro" name="bairro">
+                                <option value="">Onde está localizada</option>
+                                <optgroup label="Centro">
+                                    <option value="batel">Batel</option>
+                                    <option value="centro">Centro</option>
+                                    <option value="agua_verde">Água Verde</option>
+                                    <option value="bigorrilho">Bigorrilho</option>
+                                    <option value="juveve">Juvevê</option>
+                                </optgroup>
+                                <optgroup label="Sul">
+                                    <option value="santa_felicidade">Santa Felicidade</option>
+                                    <option value="pinheirinho">Pinheirinho</option>
+                                    <option value="boqueirao">Boqueirão</option>
+                                    <option value="mossungue">Mossunguê</option>
+                                    <option value="cabo_santo_agostinho">Cabo Santo Agostinho</option>
+                                </optgroup>
+                                <optgroup label="Norte">
+                                    <option value="parque_barigui">Parque Barigui</option>
+                                    <option value="circuito_das_aguas">Circuito das Águas</option>
+                                    <option value="vila_izabel">Vila Izabel</option>
+                                    <option value="alferes_polônio">Alferes Polônio</option>
+                                    <option value="hauer">Hauer</option>
+                                </optgroup>
+                                <optgroup label="Leste">
+                                    <option value="taboao">Taboão</option>
+                                    <option value="vila_madalena">Vila Madalena</option>
+                                    <option value="dois_quilombos">Dois Quilombos</option>
+                                    <option value="santo_antonio">Santo Antônio</option>
+                                </optgroup>
+                                <optgroup label="Oeste">
+                                    <option value="vila_vitoria">Vila Vitória</option>
+                                    <option value="caximba">Caximba</option>
+                                    <option value="nossa_senhora_da_luz">Nossa Senhora da Luz</option>
+                                </optgroup>
+                            </select>
+                        </form>
+                    </div>
+                    <div class="info-clinica">
+                        <label for="Rua" class="txtLabell">Rua:</label>
+                        <input type="text" class="txtbox"> <br>
+                    </div>
+                    <div class="info-clinica">
+                        <label for="Nome" class="txtLabell">Nome da Clínica:</label>
+                        <input type="text" class="txtbox">
+                    </div>
+                    <div class="info-clinica">
+                        <label for="Telefone" class="txtLabell">Telefone:</label>
+                        <input type="number" class="txtbox">
+                    </div>
+                    <div class="info-clinica">
+                        <label for="Email" class="txtLabell">Email:</label>
+                        <input type="email" class="txtbox">
+                    </div>
+                    <div class="info-clinica">
+                        <label for="Senha" class="txtLabell">Escolha sua Senha:</label>
+                        <input type="password" class="txtbox">
+                    </div>
+                
+                    <div class="info-clinica">
+                        <label for="CNPJ" class="txtLabell">CNPJ: </label>
+                        <input type="number" class="txtbox">
+                    </div>
+                    <div><button class="button-cadastrar-clinica" onclick="cadastroclinica()"><strong><a href="cadrealiz.html" class="butent">Cadastrar Clínica</a></strong></button></div>
+                </div>
+            </form>
+        </div>
+        <button><a href="add-clinica.html">entrar</a></button>
+            
+    </body>
+</html>

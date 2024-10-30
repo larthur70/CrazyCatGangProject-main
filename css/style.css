@@ -1,0 +1,551 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(243, 236, 199);
+    margin: 0;
+    width: 100%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+/*-------------------------- POP UP --------------------------*/
+
+.abrir-popup-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #000000;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.25s;
+}
+
+.abrir-popup-button:hover {
+    text-decoration: underline;
+    background-color: #FAC605;
+    color: #000000;
+    border-radius: 15px;
+}
+
+
+
+.popup {
+    display: none; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); 
+    justify-content: center;
+    align-items: center;
+}
+
+
+.conteudo-popup {
+    border: 2px solid black;
+    background-color: rgb(243, 236, 199);
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+
+.fechar-popup-button {
+    margin-top: 10px;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    background-color: #FAC605;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    transition: 0.25s;
+    
+}
+
+.fechar-popup-button:hover {
+    background-color: #000000;
+    color: #FAC605;
+    text-decoration: underline;
+}
+
+.popup.mostrar {
+    display: flex; 
+}
+
+
+.login-usuario {
+    color: #000000;
+    transition: 0.25s;
+}
+
+.login-usuario:hover {
+    color: #FAC605;
+}
+
+.cadastro-usuario {
+    color: #000000;
+    transition: 0.25s;
+}
+
+.cadastro-usuario:hover {
+    color: #FAC605;
+}
+
+/*-------------------------- INDEX -------------------------- */
+.title-index {
+    font-size: 20px;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #FFCB04;
+}
+
+.title {
+    color: black;
+    text-decoration: none;
+    transition: 0.25s;
+}
+
+.title:hover {
+    color: white;
+}
+
+header {
+    background-color: black;
+    width: 100%;
+}
+
+.header-index {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.header-button {
+    font-size: 15px;
+    text-decoration: none;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    transition: 0.25s;
+    padding: 10px;
+}
+
+.header-button:hover {
+    text-decoration: underline;
+    background-color: #FAC605;
+    border-radius: 15px;
+    color: black;
+}
+
+.button {
+    background-color: rgb(0, 0, 0);
+    border: none;
+}
+
+.imagem-CCG {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FAC605;
+    width: 100%;
+    max-width: 1000px;
+    border-radius: 5px;
+}
+
+.text-index {
+    width: 100%;
+    max-width: 900px;
+    font-size: 18px;
+    margin: 20px;
+    box-sizing: border-box;
+    margin-bottom: 110px;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 220px;
+    background-color: rgb(24, 23, 23);
+    color: rgb(146, 142, 142);
+}
+
+.footer-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    color: rgb(90, 88, 88);
+}
+
+
+
+
+/*-------------------------- CLINICAS -------------------------- */
+
+.container-clinica {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.login-clinica {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    padding: 15px;
+    width: 700px;
+    height: 100%;
+    background-color: #FAC605;
+}
+
+
+
+.txtbox-login{
+    width: 80%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+    
+}
+
+.txtLabell-login {
+    color: rgb(0, 0, 0);
+    display: block; 
+    margin-bottom: 5px; 
+}
+
+.button-entrar-clinica {
+    position: relative;
+    margin: 20px;
+    margin-top: 120px;
+    left: 24.5%;
+    background-color: #000000;
+    color: white;
+    border: 1px solid #000000;
+    border-radius: 50px;
+    width: 300px;
+    height: 60px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.button-entrar-clinica:hover {
+    background-color: #ffffff;
+    color: black;
+    border: 1px solid #ccc;
+    
+}
+
+.cadastro-clinica {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 10px ;
+    border-bottom-right-radius: 10px;
+    padding: 15px;
+    max-width: 400px;
+    height: 100%;
+    background-color: #000000;
+}
+
+.txtcad-clinica {
+    color: white;
+}
+
+.info-clinica {
+    margin: 15px;
+}
+
+select {
+    cursor: pointer;
+}
+
+.txtbox {
+    width: 100%; 
+    padding: 8px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+    box-sizing: border-box; 
+}
+
+
+select {
+    margin-left: 15px;
+    width: 90%; 
+    padding: 8px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+.txtLabell {
+    color: white;
+    display: block; 
+    margin-bottom: 5px; 
+}
+
+
+.button-cadastrar-clinica {
+    background-color: #FAC605;
+    color: rgb(0, 0, 0);
+    border: 0px;
+    border-radius: 50px;
+    width: 200px;
+    height: 60px;
+    position: relative;
+    left: 17.5%;
+    transition: 0.25s;
+    border: 1px solid #000000;
+    cursor: pointer;
+}
+
+.button-cadastrar-clinica:hover {
+    background-color: white;
+    border: 1px solid #ccc;
+}
+
+    /*-------------------------- LOGIN -------------------------- */
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: rgb(205, 199, 168);
+    margin: 60px;
+    width: 550px;
+    flex-direction: column;
+}
+
+
+.login-box {
+    margin: 20px;
+}
+
+.login-txtbox {
+    border-radius: 15px;
+    border: 2px solid black;
+    padding: 8px;
+    padding-top: 15px;
+    width: 359px;
+}
+
+.entrar-login-button {
+    border-radius: 10px;
+    background-color: #000000;
+    padding: 10px;
+    border: 0px;
+    color: white;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.entrar-login-button:hover {
+    background-color: #FFCB04;
+    color: #000000;
+
+}
+
+.footer-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 220px;
+    background-color: rgb(24, 23, 23);
+    color: rgb(146, 142, 142);
+    margin-top: 290px;
+}
+
+.footer-footer-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    color: rgb(90, 88, 88);
+}
+
+/*-------------------------- CADASTRO --------------------------*/
+
+.cadastro-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: rgb(205, 199, 168);
+    margin: 60px;
+    width: 1000px;
+    flex-direction: column;
+}
+
+
+.cadastro-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.cadastro-txtbox {
+    margin: 10px;
+    border-radius: 15px;
+    border: 2px solid black;
+    padding: 8px;
+    padding-top: 15px;
+    width: 359px;
+}
+
+.entrar-cadastro-button {
+    border-radius: 10px;
+    background-color: #000000;
+    padding: 10px;
+    border: 0px;
+    color: white;
+    transition: 0.25s;
+    width: 80px;
+    cursor: pointer;
+}
+
+.entrar-cadastro-button:hover {
+    background-color: #FFCB04;
+    color: #000000;
+
+}
+
+.cadastro-box-esquerda {
+    margin-right: 160px;
+}
+
+.footer-cadastro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 220px;
+    background-color: rgb(24, 23, 23);
+    color: rgb(146, 142, 142);
+    margin-top: 160px;
+
+}
+
+.footer-footer-cadastro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    color: rgb(90, 88, 88);
+}
+
+
+
+
+
+/*-------------------------- ADD CLINICA --------------------------*/
+
+
+
+.title-index-add-clinica {
+    
+    font-size: 10px;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #FFCB04;
+}
+
+
+.logo-CCG {
+    width: 100px;
+    height: 100px;
+}
+
+
+.title-add-clinica {
+    color: black;
+    text-decoration: none;
+    transition: 0.25s;
+}
+
+.title-add-clinica:hover {
+    color: white;
+}
+
+
+/*-------------------------- Grid CLinicas --------------------------*/
+
+.card-clinicas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(205, 199, 168);
+    width: 300px;
+    height: 500px;
+    border-radius: 15px;
+    margin: 20px;
+    transition: 0.25s;
+}
+
+.card-clinicas:hover{
+    background-color: rgb(187, 180, 151);
+
+}
+
+
+.parte-imagem-card {
+    display: flex;
+    margin: 10px;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 5px;
+    width: 270px;
+    height: 50%;
+}
+
+.parte-info-card {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 270px;
+    height: 40%;
+}
+
+.txt-info-card {
+    margin: 10px;
+    text-decoration: underline;
+}
+
+a {
+    color: inherit;
+}
+
